@@ -1,0 +1,6 @@
+
+@mixin disposicion($content,$alineacion) {
+    display: flex;
+    justify-content: $content;
+    align-items: $alineacion;
+}

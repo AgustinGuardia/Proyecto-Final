@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@600&display=swap");
+.portada {
+  background-image: url("../Imagenes/kayak-2.jpeg");
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portada header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.portada header .logotrekking {
+  display: flex;
+  justify-content: flex-start;
+  align-items: inherit;
+  margin: 10px 0% 0% 10px;
+  width: 100px;
+}
+.portada header .c-toggler {
+  background: #4380c4;
+}
+@media screen and (max-width: 992px) {
+  .portada header .menu .navbar-nav {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+  }
+}
+.portada header .menu #nav-item-link {
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: #4380c4;
+  width: max-content;
+}
+.portada header .menu #nav-item-link:hover {
+  background-color: rgba(150, 150, 150, 0.507);
+  transition: 0.5s;
+}
+.portada .title {
+  color: aliceblue;
+}
+.portada .title-one {
+  position: absolute;
+  top: 55vh;
+  left: 14%;
+  right: 0px;
+}
+.portada .title-two {
+  position: absolute;
+  top: 60vh;
+  left: 14%;
+  right: 0px;
+}
+
+.c-toggler:hover {
+  border: 1px solid black;
+  background-color: #4380c4;
+  transition: all 1.5s;
+  border-radius: 4px;
+}
+
+.nosotros-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 80px;
+  padding-top: 120px;
+}
+
+.nosotros-item {
+  display: flex;
+}
+
+.nosotros-text {
+  margin: 0 20px;
+}
+
+.encabezados {
+  padding: 0px 20px 20px 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: #4380c4;
+}
+
+/* Actividades */
+.actividades {
+  padding-top: 120px;
+  margin: 0px 80px;
+}
+
+.act {
+  margin-left: 20px;
+}
+
+.contact-container {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 60px 60px;
+}
+
+.contact-ig {
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.contact-fc {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.lg {
+  grid-area: 1/2/3/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
+
+.contact-wpp {
+  display: flex;
+  justify-content: inherit;
+  align-items: center;
+  margin-left: 5%;
+  transition: all 1.5s linear;
+}
+
+.contact-gm {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+  transition: all 2s;
+}
+
+.three {
+  width: 35%;
+}
+
+.p-text {
+  z-index: -1;
+  margin: 2px 5px 0px 5px;
+  transition: all 2s;
+}
+
+.contact-wpp:hover {
+  z-index: 1;
+}
+
+.contact-gm:hover {
+  z-index: 1;
+}
+
+.c-toggler:hover {
+  border: 1px solid black;
+  background-color: #4380c4;
+  transition: all 1.5s;
+  border-radius: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.op {
+  padding: 20px 0 20px 20px;
+  margin: 0 80px;
+}
+
+.disclaimer {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

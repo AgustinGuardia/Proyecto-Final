@@ -1,0 +1,60 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.portada{
+    background-image: url('../Imagenes/kayak-2.jpeg');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    header{
+        background-color: black;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        .logotrekking{
+            @include disposicion (flex-start,inherit);
+            margin: 10px 0% 0% 10px;
+            width: 100px;
+        }
+        .c-toggler{
+            background:$color-principal;
+        }
+
+        .menu{
+            @media screen and (max-width: 992px) {
+                .navbar-nav {
+                    @include disposicion(inherit,center);
+                }
+            }
+
+            #nav-item-link {
+                padding: 5px 8px;
+                border-radius: 5px;
+                color: $color-principal;
+                width: max-content;
+            }
+            #nav-item-link:hover {
+                background-color:  rgba(150, 150, 150, 0.507);
+                transition: 0.5s;
+            }
+
+        }
+    }
+    .title {
+        color: aliceblue;
+    }
+    .title-one{
+        position: absolute;
+        top: 55vh;
+        left: 14%;
+        right: 0px;
+    }
+    .title-two{
+        position: absolute;
+        top: 60vh;
+        left: 14%;
+        right: 0px;
+    }
+    }
