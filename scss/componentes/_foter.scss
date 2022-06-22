@@ -6,8 +6,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px 60px;
-}
-.contact-ig {
+    .contact-ig {
     @include disposicion(inherit,center);
     margin-left: 5%;
 }
@@ -15,16 +14,16 @@
     @include disposicion(flex-end,center);
     margin-right: 5%;
 }
-
 .lg {
     grid-area: 1 / 2 / 3 / 3;
     @include disposicion(center,center);
-}
-
-.item{
+    .item{
     @include disposicion(center,inherit);
 }
-
+.three {
+    width: 35%;
+}
+}
 .contact-wpp {
     @include disposicion(inherit,center);
     margin-left: 5%;
@@ -35,22 +34,16 @@
     margin-right: 5%;
     transition: all 2s;
 }
-
-
-.three {
-    width: 35%;
-}
-
 .p-text{
     z-index: -1;
     margin: 2px 5px 0px 5px;
     transition: all 2s;
 }
-
 .contact-wpp:hover{
     z-index: 1;
 }
 
 .contact-gm:hover{
     z-index: 1; 
+}
 }

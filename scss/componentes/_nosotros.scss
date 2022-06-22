@@ -6,25 +6,21 @@
     @include disposicion (space-around,center);
     margin: 0 80px;
     padding-top: 120px;
-}
-
-
-.nosotros-item {
+    .nosotros-item {
     display: flex;
-}
-.nosotros-text {
+    .nosotros-text {
     margin: 0 20px;
-}
-
-.encabezados{
+    .encabezados{
     padding: 0px 20px 20px 40px;
+}
+}
+}
 }
 
 .c-toggler:hover{
     @extend %toggler-h
     
 }
-
 .link{
     text-decoration: none;
     color: $color-principal;

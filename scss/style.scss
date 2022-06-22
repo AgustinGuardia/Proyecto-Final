@@ -16,12 +16,19 @@
 .op {
     padding: 20px 0 20px 20px;
     margin: 0 80px;
+    .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
 }
-
+    .opinion{
+    margin-top: 10px;
+}
+}
 .c-toggler:hover{
     @extend %toggler-h
 }
 
 .disclaimer {
-    display: none;
+    display: none!important;
 }
