@@ -19,9 +19,9 @@
     @include disposicion(center,center);
     .item{
     @include disposicion(center,inherit);
-}
-.three {
+    .three {
     width: 35%;
+}
 }
 }
 .contact-wpp {
